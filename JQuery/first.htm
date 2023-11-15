@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery - CDN </title>
+    <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('p').click(function(){
+        $(this).hide();   
+        });
+        $('#t1').click(function(){
+            $('#t1').css('background-color','cyan');
+        });
+        $('#t1').blur(function(){
+            $('#t1').css('background-color','');
+        });
+        $('#btnshow').click(function(){
+            let a=$('#p1').html();
+            $('#t1').val(a);
+        });
+    });
+    </script>
+</head>
+<body>
+  <p id="p1">Hello Paragraph 1</p>
+  <p>Hello Paragraph 2</p>
+  <p>Hello Paragraph 3</p>
+  <p>Hello Paragraph 4</p>
+  <input type="text" id="t1"/>
+  <button id="btnshow">SHOW</button>
+  <button id="btnhide">HIDE</button>
+</body>
+</html>

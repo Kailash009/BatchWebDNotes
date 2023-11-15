@@ -1,0 +1,48 @@
+h2{
+    color:red;
+    background-color: yellow;
+}
+h2:hover{
+    opacity: 0.3;
+}
+p::selection
+{
+    color:blue;
+    background-color: aqua;
+}
+p
+{
+    font-size:30px;
+}
+p::first-letter
+{
+    font-size:80px;
+    color:red;
+}
+p::after
+{
+    content:url('img/about-2.jpg');
+}
+
+
+
+
+.kl
+{
+    width:40%;
+    height: 40%;
+    background-color: chartreuse;
+    border:2px solid red;
+    float:left;
+    
+}
+.kp
+{
+    width:50%;
+    height: 30%;
+    background-color: brown;
+    border:2px solid red;
+    float:left;
+    clear:left;
+
+}

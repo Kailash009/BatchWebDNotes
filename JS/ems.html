@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS</title>
+</head>
+<body bgcolor="yellow">
+    <h1 align="center">EMPLOYEE MANAGEMENT SYSTEM</h1>
+    <table border="3" width="40%" align="center" bgcolor="cyan">
+        <tr>
+            <td>EID</td>
+            <td><input type="text" id="txtEid"/> </td>
+        </tr>
+        <tr>
+            <td>NAME</td>
+            <td><input type="text" id="txtName"/> </td>
+        </tr>
+        <tr>
+            <td>AGE</td>
+            <td><input type="text" id="txtAge"/> </td>
+        </tr>
+        <tr>
+            <td>CITY</td>
+            <td><input type="text" id="txtCity"/> </td>
+        </tr>
+        <tr>
+            <td>SALARY</td>
+            <td><input type="text" id="txtSalary"/> </td>
+        </tr>
+        <tr>
+            <td> <button onclick="btnAdd()">ADD</button> </td>
+            <td> <button onclick="btnUpdate()">UPDATE</button> </td>
+            <td> <button onclick="btnDelete()">DELETE</button> </td>
+            <td> <button onclick="btnSearch()">SEARCH</button> </td>
+        </tr>
+        <tr>
+            <td> <button onclick="btnFirst()">FIRST</button> </td>
+            <td> <button onclick="btnPrev()">PREV</button> </td>
+            <td> <button onclick="btnNext()">NEXT</button> </td>
+            <td> <button onclick="btnLast()">LAST</button> </td>
+        </tr>
+        <tr>
+            <td> <button onclick="btnShowAll()">SHOW ALL</button> </td>
+        </tr>
+    </table>
+    <br/>
+    <div id="show_Emp">
+
+    </div>
+    <script src="ems.js"></script>
+</body>
+</html>

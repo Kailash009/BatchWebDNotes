@@ -1,0 +1,46 @@
+.flex-container
+{
+background-color: aqua;
+border:2px solid red;
+height: 300px;
+margin:16px;
+display: flex;
+/* flex-direction: row; */
+/* justify-content:center; */
+/* align-items: center; */
+/* flex-wrap: wrap; */
+/* flex-flow:row wrap-reverse; */
+}
+
+
+#flex-box-1
+{
+background-color: yellow;
+width:120px;
+height:120px;
+order:5;
+}
+#flex-box-2
+{
+background-color: blue;
+width:120px;
+height:120px;
+/* flex-grow: 2; */
+order:4;
+align-self: flex-end;
+}
+#flex-box-3
+{
+    background-color: chocolate;
+    width:120px;
+height:120px;
+order:6;
+}
+#flex-box-4
+{
+background-color: darkseagreen;
+width:120px;
+height:120px;
+flex-shrink: 3;
+order:5;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery - Events </title>
+    <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('button').click(function(){
+        let a=$('#t1').val();
+        switch(a)
+        {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+            var res='Vowel';
+            break;
+            default:
+            res='Consonant';
+            break;
+        }
+        $('h1').html(res);
+    });
+});
+    </script>
+</head>
+<body>
+ Enter a Character:
+ <input type="text" id="t1"/>
+ <button>Check</button>
+<h1></h1>
+</body>
+</html>

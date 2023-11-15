@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="images/twit.png" rel="icon"/>
+</head>
+ <body bgcolor="yellow">
+    <h1 align="center">REGISTRATION FORM</h1>
+    <form method="post" action="dashboard.html">
+        <fieldset>
+        <table align="center" width="40%" bgcolor="powderblue">
+        <legend>REGISTRATION FORM</legend>
+            <tr>
+                <td>Name</td>
+                <td> * <input type="text" placeholder="Enter your Name" required id="name" name="name"/></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" id="age" name="age"/></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> 
+                    <input type="radio" checked name="abc"/> Male
+                    <input type="radio" name="abc"/> Female
+                  </td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date"/> </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td> <textarea rows="6" cols="30"></textarea>   </td>
+            </tr>
+            <tr>
+                <td> City </td>
+                <td>
+                <select>
+                    <option>Select City</option>
+                    <option>Delhi</option>
+                    <option>Noida</option>
+                    <option>Banglore</option>
+                    <option>Chennai</option>
+                    <option>Goa</option>
+                    <option>Lucknow</option>
+                </select>
+             </td>
+            </tr>
+            <tr>
+                <td> Email </td>
+                <td> <input type="email"/> </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"/>  </td>
+            </tr>
+            <tr>
+                <td> Area of Interest  </td>
+                <td>
+                    <input type="checkbox"/> JAVA
+                    <input type="checkbox" disabled checked/> ANGULAR  <br/>
+                    <input type="checkbox"/> REACTJS
+                    <input type="checkbox"/> DOT NET CORE
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="checkbox"/> I accept all Terms and condition  </td>
+            </tr>
+            <tr>
+                <td> Upload Files </td>
+                <td><input type="file"/>  </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Register"/> </td>
+                <td> <input type="reset" value="Clear"/> </td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td> <input type="time"/> </td>
+                
+            </tr>
+            <tr>
+                <td><a href="register.html" target="_blank">  SignUp </a>  </td>
+                <td><a href="login.html" target="_blank"> SignIn </a> </td>
+            </tr>
+        </table>
+        </fieldset>
+
+    </form>
+</body>
+</html>
